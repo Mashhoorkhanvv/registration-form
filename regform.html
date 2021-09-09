@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PAGE</title>
+    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C4E03AQH8Ai-BuSC55A/profile-displayphoto-shrink_200_200/0/1629877163842?e=1635379200&v=beta&t=iwK59L3nBGaETSNcU9sa-r269Jeaqqg612TXdEamoPc" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="jquery.js"></script>
+</head>
+<body style="background-image: url('po1.jpg');">
+
+    <div class="container col-6 col-s-6 col-md-4 col-lg-3 col-xl-4">
+		<h1 class="text-white">LOGIN</h1>
+        <div id="myform" class="form-group text-white">
+            <label for="textfield">User Name:</label>
+            <input type="textfield"  class="form-control" placeholder="Enter User Name" >
+            <label for="password">Password:</label>
+            <input type="password"  class="form-control" placeholder="Enter Your Password" > 
+             
+        </div>
+		<button onclick="window.location.href='navig.html'" type="submit" class="btn btn-success">Submit</button>
+        <button onclick="window.location.href='n.html'" type="submit" class="btn btn-danger" >Cancel</button><br>
+        <a href="url" data-toggle="modal" data-target="#openmodel" >Forgot password?</a>
+        <br>
+        
+        <a href="http://127.0.0.1:5500/registrationform.html/userpage.html">Register as New User</a>
+    </div>
+    <div class="modal fade" id="openmodel" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-image:url(3.jpg) ;">
+                <div class="modal-header">
+                    
+                    <h4 class="modal-title text-white">Change Password</h4>
+                
+                </div>
+                <div class="modal-body" >
+                    <label for="password" style="color: beige;">User Name:</label>
+                    <input type="password" class="form-control" placeholder="Enter Your UserName" required>
+                    <label for="password" style="color: beige;">New Password:</label>
+                    <input type="password" class="form-control" placeholder="Enter Your New Password" required>
+                    <label for="password" style="color: beige;">Confirm Password:</label>
+                    <input type="password" class="form-control" placeholder="Re-enter New Password" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#pswrd">Ok</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <div style="background-image: url(3.jpg);" class="modal fade" id="pswrd" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background-image:url(3.jpg) ;">
+                        <div class="modal-body text-white">
+                            <h4>Password Changed Successfully</h4>
+                            
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
